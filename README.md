@@ -1,7 +1,7 @@
 # task02-grupo06
 
 Pedro Sousa
-Miguel Henrique
+Miguel Krasner
 Pablo Henrique
 Thassio Vagner
 Vinicius Borba
