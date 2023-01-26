@@ -81,5 +81,74 @@
       Combinamos um olhar analítico à inteligência de processos para ampliar
       possibilidades e propor novos caminhos de forma pró-ativa.
     </p>
+
+     <div class="text-lg md:col-span-5">
+      <h1 class="mb-8 font-dbc-regular font-normal text-4xl text-black md:mb-12 md:text-5xl">Let's tech up!</h1>
+
+      <p class="leading-relaxed">Entre em contato e conheça os serviços que podem revolucionar o seu negócio. Estamos disponíveis para tirar todas as suas dúvidas e iniciarmos uma parceria de sucesso. Juntos tornamos potencial em potência.</p>
+
+      
+    </div>
+
+    <div class="md:col-span-6 md:col-start-7">
+      <form action="#" method="POST" class="form" data-ajaxform="contact" data-ajaxform-endpoint="forms/v1/contact">
+
+        
+
+        <fieldset class="space-y-4">
+          <div>
+            <label for="firstname" class="block mb-1">Nome *</label>
+            <input type="text" name="firstname" id="firstname" class="input" required="">
+          </div>
+  
+          <div>
+            <label for="lastname" class="block mb-1">Sobrenome *</label>
+            <input type="text" name="lastname" id="lastname" class="input" required="">
+          </div>
+  
+          <div class="space-y-4 md:grid md:grid-cols-2 md:gap-4 md:space-y-0">
+            <div>
+              <label for="phone" class="block mb-1">Número de telefone *</label>
+              <input type="text" name="phone" id="phone" class="input" placeholder="+55 11 99999-999" required="">
+            </div>
+  
+            <div>
+              <label for="email" class="block mb-1">E-mail *</label>
+              <input type="email" name="email" id="email" class="input" required="">
+            </div>
+          </div>
+  
+          <div>
+            <label for="subject" class="block mb-1">Motivo do contato *</label>
+            <input type="text" name="subject" id="subject" class="input" required="">
+          </div>
+  
+          <div>
+            <label for="message" class="block mb-1">Mensagem *</label>
+            <textarea name="message" id="message" class="textarea" required="" minlength="10"></textarea>
+          </div>
+
+          <div class="text-sm">* Campos obrigatórios</div>
+  
+          <div class="pt-4">
+            <label class="group flex gap-3 items-center cursor-pointer">
+              <input type="checkbox" name="accept_newsletter" id="accept_newsletter" value="yes" class="
+                accent-dbc-blue w-6 h-6
+                [&amp;:not(:checked)]:appearance-none [&amp;:not(:checked)]:border [&amp;:not(:checked)]:border-gray-200 [&amp;:not(:checked)]
+                group-hover:border-gray-400 group-hover:bg-gray-50
+                transition-colors
+                ">
+              <span class="text-sm group-hover:text-gray-900 transition-colors">
+                Me informe sobre as atualizações da DBC
+              </span>
+            </label>
+          </div>
+
+        </fieldset>
+
+        
+      </form>
+    </div>
+
   </body>
 </html>
